@@ -7,3 +7,4 @@ export function fetchCountries(name) {
     .then(response => response.json())
     .catch(error => console.log(error))
 };
+
